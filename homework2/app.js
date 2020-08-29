@@ -6,11 +6,11 @@
     
     caseController.$inject = ['$scope', '$filter'];
     function caseController($scope, $filter) {
-      $scope.name = "Praveen";
+      $scope.name = "PRAVEEN";
     
       $scope.lower = function () {
-        var upCase = $filter('uppercase');
-        $scope.name = upCase($scope.name);
+        var lowCase = $filter('lowercase');
+        $scope.name = lowCase($scope.name);
       };
     }
     })()
