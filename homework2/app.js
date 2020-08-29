@@ -9,8 +9,8 @@
       $scope.name = "Praveen";
     
       $scope.lower = function () {
-        var lowCase = $filter('lowercase');
-        $scope.name = lowCase($scope.name);
+        var upCase = $filter('uppercase');
+        $scope.name = upCase($scope.name);
       };
     }
     })()
